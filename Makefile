@@ -6,3 +6,7 @@ put:
 
 test:
 	npm test
+
+fix:
+	npx standard --fix
+
