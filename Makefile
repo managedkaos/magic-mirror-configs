@@ -2,11 +2,11 @@ get:
 	rsync -avz pi@raspberrypi:/home/pi/MagicMirror/config/config.js* .
 
 put:
-	rsync -avz ./config.js* pi@raspberrypi:/home/pi/MagicMirror/config/
+	#rsync -avz ./config.js* pi@raspberrypi:/home/pi/MagicMirror/config/
 
 test:
-	npm test
+	npx standard config.js*
 
 fix:
-	npx standard --fix
+	npx standard --fix config.js*
 
