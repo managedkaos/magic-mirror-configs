@@ -1,0 +1,9 @@
+{
+  "name": "magic-mirror-configs",
+  "devDependencies": {
+    "standard": "^14.3.4"
+  },
+  "scripts": {
+    "test": "standard"
+  }
+}
