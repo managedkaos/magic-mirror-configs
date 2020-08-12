@@ -7,6 +7,6 @@ put:
 test:
 	npx standard config.js*
 
-fix:
+fix: test
 	npx standard --fix config.js*
 
