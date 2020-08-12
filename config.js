@@ -61,7 +61,7 @@ var config = {
         showFeelsLike: false,
         type: 'current',
         locationID: '5368361',
-        apiKey: '150e103c09f90a390271d830004bb719'
+        apiKey: '{{OPENWEATHERMAP_API_KEY}}'
       }
     }
   ]
