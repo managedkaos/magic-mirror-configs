@@ -1,0 +1,26 @@
+var config = {
+  address: 'localhost',
+  port: 8080,
+  basePath: '/',
+  ipWhitelist: ['127.0.0.1', '::ffff:127.0.0.1', '::1'],
+  useHttps: false,
+  httpsPrivateKey: '',
+  httpsCertificate: '',
+  language: 'en',
+  logLevel: ['INFO', 'LOG', 'WARN', 'ERROR'],
+  timeFormat: 24,
+  zoom: 2.0,
+  units: 'metric',
+  modules: [
+    {
+      module: 'MMM-Stock',
+      position: 'top_left',
+      config: {
+        companies: ['MSFT', 'GOOG', 'ORCL', 'FB', 'AAPL']
+      }
+    }
+  ]
+}
+
+/** DO NOT EDIT THE LINE BELOW **/
+if (typeof module !== 'undefined') { module.exports = config }
